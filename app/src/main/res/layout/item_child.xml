@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="120dp"
     android:background="#fff"
     android:padding="10dp">
@@ -35,6 +36,21 @@
         android:textSize="20sp"
         android:textColor="#ff0000"
         android:text="000"/>
+
+    <Button
+        android:id="@+id/child_delete"
+        android:layout_width="40sp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#f00"
+        android:paddingBottom="2dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="2dp"
+        android:text="删除"
+        android:textColor="#fff" />
     <LinearLayout
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
